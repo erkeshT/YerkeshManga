@@ -1,0 +1,50 @@
+.headr {
+    background-image: url(Wallpaper.png);
+    height: 100vh;
+    background-repeat: no-repeat; /* Чтобы не повторялось */
+    background-size: cover; /* Чтобы на весь экран монитора*/
+  }
+
+
+.card-holder {
+    display: flex; /* Чтобы друг за другом стояли*/
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+  }
+  
+  .card {
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 350px;
+    margin-right: 35px;
+    background-color: #fff;
+    margin-top: -60px;
+    padding: 20px 20px;
+    height: 380px ;
+    
+  }
+  
+  .card-image {
+    display: flex;
+    justify-content:center;
+    padding-top: 31px;
+    
+    
+  }
+  
+  .card-title {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  
+  .card-desc {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(125, 125, 125)
+  
+  }

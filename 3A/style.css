@@ -1,0 +1,72 @@
+.header{
+
+  background-image: url(Wallpaper.jpg);
+  height: 100vh;
+  background-repeat: no-repeat; /* Чтобы не повторялось */
+  background-size: cover; /* Чтобы на весь экран монитора*/
+}
+
+.history {
+    margin-top: 166px;
+    
+  }
+  
+  .history-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+  }
+  
+  .history-title span {
+    color: #444444;
+  }
+  
+  .history-desc {
+    color: #474747;
+    font-size: 16px;
+    width: 500px;
+    text-align: left;
+  }
+  
+  .history-number {
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  
+  
+  .history-images {
+    position: relative;
+  }
+  
+  .history-holder {
+    display: flex;
+    padding-left:50px
+  }
+  
+  .imgages-1 {
+    position: absolute;
+    z-index: 0;
+    top: 54px;
+    left: 211px;
+  }
+  
+  .imgages-2 {
+    position: absolute;
+    z-index: 999;
+    top: -92px;
+    left: 383px;
+  }
+  
+  .imgages-3 {
+    position: absolute;
+    z-index: 999;
+    top: 246px;
+    left: 460px;
+  }
+  
